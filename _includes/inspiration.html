@@ -1,0 +1,10 @@
+<ul class="list">
+  {% for item in site.data.inspiration %}
+  <li class="list-item">
+    <h2>{{item.title}}</h2>
+    <a href="{{item.url}}">{{item.url}}</a>
+    <p>{{item.description}}</p>
+  </li>
+  {% endfor %}
+</ul>
+
