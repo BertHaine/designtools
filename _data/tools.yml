@@ -1,0 +1,421 @@
+tools:
+  - title: Typography
+    color: F68383
+    subfolderitems:
+      - title: Fontface Ninja
+        url: https://Fontface.Ninja
+        description: Identify that cool font on the page you are browsing.
+
+      - title: Google Fonts
+        url: https://fonts.google.com/
+        description: Find and use high quality fonts for your website.
+
+      - title: TypeKit
+        url: https://fonts.google.com/
+        description: Get access to a bundle of premium fonts.
+
+      - title: Fontstruct
+        url: http://fontstruct.com/
+        description: Create your own fonts from the ground up, pixel by pixel.
+
+      - title: Typecast
+        url: https://typecast.com/
+        description: Create visual and semantic designs that put type first.
+
+      - title: Font Squirrel
+        url: https://www.fontsquirrel.com/
+        description: Take advantage of the best database of free fonts.
+
+      - title: 1001 Fonts
+        url: https://www.1001fonts.com/
+        description: Scan a huge library of fonts for personal orcommercial use.
+
+      - title: What Font Is
+        url: https://www.whatfontis.com/
+        description: description
+
+      - title: Typelight
+        url: http://www.cr8software.net/typelight.html
+        description: Edit and convert every Open Type Font.
+
+      - title: Fontflame
+        url: https://fontflame.com
+        description: Tinder for fonts. Swipe to find the bestmatch.
+  - title: Stock Photos
+    color: f8c881
+    subfolderitems:
+      - title: Pixabay
+        url: https://Pixabay.com
+        description: Browse and download high quality images under CCO license.
+
+      - title: Unsplash
+        url: https://unsplash.com
+        description: et 10 new incredibly beautiful pictures everyday (CC0).
+
+      - title: Stocksy
+        url: https://Stocksy.com
+        description: Download beautiful and distinctive royalty-free stock photos.
+
+      - title: Pexels
+        url: https://Pexels.com
+        description: Get access to the best free stock photos.
+
+      - title: Gratisography
+        url: https://Gratisography.com
+        description: Ryan McGuire takes thousands of exquisite pictures. Get them all. Free of use.
+
+      - title: Adobe Stock
+        url: https://stock.adobe.com
+        description: Find the perfect asset for your creative project.
+
+      - title: Zoomy
+        url: https://Zoomyapp.com
+        description: Free stock photos from different sources gathered in one desktop app.
+
+      - title: New Old Stock
+        url: https://nos.twnsnd.co
+        description: Download vintage pictures from public archives.
+
+      - title: SplitShire
+        url: https://SplitShire.com
+        description: Webdesigner Daniel Nanescu shares hundres of gorgeous CCO-licensed pictures.
+
+      - title: Death To Stock Photos
+        url: https://deathtostockphotos.com
+        description: Receive original pictures in your email every month.
+  - title: Stock Graphics
+    color: f7fa7c
+    subfolderitems:
+      - title: Illustrator
+        url: https://adobe.com
+        description: Build amazing vector art with this must-have tool.
+
+      - title: Photoshop
+        url: https://adobe.com
+        description: Create and enhance your photographs, web designs and even your 3D artwork.
+
+      - title: Daz Studio
+        url: https:/daz3d.com
+        description: Make incredibly realistic humans or animals in 3D.
+
+      - title: DrawPlus
+        url: https://serif.com
+        description: Draw handsome vector art at a reasonable price.
+
+      - title: Pixlr
+        url: https://Pixlr.com
+        description: Get access to 600 effects to retouch your pictures, free of charge.
+
+      - title: Inkspace
+        url: https://inkscape.org/en/
+        description: The best open source alternative to Illustrator.
+
+      - title: Aviary
+        url: https://Aviary.com
+        description: Edit your photos from a mobile app or from a web app.
+
+      - title: Blender
+        url: https://Blender.org
+        description: Open source and entirely free 3D creation software.
+
+      - title: Gimp
+        url: https://gimp.org
+        description: Free and open source editor to edit and retouch images.
+
+      - title: Affinity Photo
+        url: https://Affinity.serif.com
+        description: Professional photo editing software. For Mac Only.
+  - title: Infographics
+    color: D2FC74
+    subfolderitems:
+        - title: Canva
+          url: https://Canva.com
+          description: Amazingly simple design graphic software to create any content you need.
+
+        - title: Ease.ly
+          url: https://Ease.ly
+          description: Select among hunders of templates and create your own infograpics.
+
+        - title: Infogram
+          url: https://infogr.am
+          description: Allows users to generate qualitative charts. Already used by the Huff Post.
+
+        - title: Visage
+          url: https://visage.co
+          description: Design all kinds of visual content with their dazzling interface.
+
+        - title: Visualize.me
+          url: https://Visualize.me
+          description: Your CV is boring? Turn it into an original infographic.
+
+        - title: Venngage
+          url: https://Venngage.com
+          description: Make hundreds of infographics, media posts, and reports with thsi simple tool.
+
+        - title: Draw.io
+          url: https://draw.io
+          description: A complete flowchart maker suitable for both internal and external projects.
+
+        - title: Piktochart
+          url: https://Piktochart.com
+          description: Easy-to-use infographics maker, even if you're not a designer.
+
+        - title: Visme
+          url: https://Visme.co
+          description: Transform your ideas into engaging content through their powerful tool.
+
+        - title: Gliffy
+          url: https://Gliffy.com
+          description: Superb online diagramming tool that lets you collaborate with your team.
+  - title: Collaboration
+    color: 71FC7B
+    subfolderitems:
+        - title: Invision
+          url: https://invisionapp.com
+          description: A simple prototyping and collaboration tool for design teams.
+
+        - title: GoVisually
+          url: https://GoVisually.com
+          description: One of the best ways to collect client feedback for your projects.
+
+        - title: Red Pen
+          url: https://redpen.io
+          description: The fastest feedback tool. Drag and drop your design and invite your friends.
+
+        - title: Zeplin
+          url: https://zeplin.io
+          description: The ultimate collaboration tool between designers and developers.
+
+        - title: Wake
+          url: https://wake.com
+          description: Share, review and discuss designs among your team. Airbnb uses it!
+
+        - title: Marqueed
+          url: https://Marqueed.com
+          description: Mark-up and discuss images online. Pretty useful for Photoshop.
+
+        - title: Cage
+          url: https://cageapp.com
+          description: A unique dashboard to collaborate with teams and clients.
+
+        - title: Bounce
+          url: https://bounceapp.com
+          description: A fun and easy way to share ideas on any website.
+
+        - title: Proofhub
+          url: https://proofhub.com
+          description: Manage your projects efficiently. Make sure your team collaborates and delivers.
+
+        - title: Lingo
+          url: https://lingoapp.com
+          description: Build and share libraries of visual assets with your team. For Mac only.
+  - title: Colors
+    color: 72FDDA
+    subfolderitems:
+      - title: Color Hunt
+        url: https://colorhunt.co
+        description: Browse through thousands of four-color combinations until you find the right one.
+
+      - title: Adobe Color CC
+        url: https://color.adobe.com
+        description: Try, generate, and save various color schemes.
+
+      - title: Coolors
+        url: https://Coolors.co
+        description: Scroll through the page and save your favorite palettes.
+
+      - title: TinEye
+        url: https://labs.tineye.com
+        description: Determine your colors and search images with the perfect color combination.
+
+      - title: ColorZilla
+        url: https://colorzilla.com
+        description: Super convenient extension to pick colors from a web.
+
+      - title: Colicious
+        url: https://Colicious.ga
+        description: Press the space bar and generate a new color. Amusing and useful.
+
+      - title: PaletteGenerator
+        url: https://PaletteGenerator.com
+        description: Generates a color palette for any image you find on the web.
+
+      - title: Pictaculous
+        url: https://Pictaculous.com
+        description: Upload your image and get a compatible color palette.
+
+      - title: The Color App
+        url: Available on iTunes
+        description: Finding colors become much easier with this large grid.
+
+      - title: Unclrd
+        url: https://Unclrd.com
+        description: Browser extension that turns every website into black and white.
+  - title: Inspiration
+    color: D2FC74
+    subfolderitems:
+      - title: Dribbble
+        url: https://Dribbble.com
+        description: The place where designers share their most dazzling assets.
+
+      - title: Muzli
+        url: https://muz.li
+        description: All the design inspiration you need straight in every new tab (browser extension).
+
+      - title: Design You Trust
+        url: https://designyoutrust.com
+        description: Collective blog full of design portfolios and architectural inspirations.
+
+      - title: Really Good Emails
+        url: https://Catalog of well-designed emails to inspire you when building your newsletter.com
+        description: description
+
+      - title: Awwwards
+        url: https://Awwwards.com
+        description: Recognizes the talent and effort of the best designers, developers and agencies.
+
+      - title: One Page Love
+        url: https://onepagelove.com
+        description: Original showcase of elegant one-page websites.
+
+      - title: Site See
+        url: https://sitesee.co
+        description: Curated galler of beautiful, modern websites from all around the world.
+
+      - title: Designspiration
+        url: https://Designspiration.net
+        description: Pinterest-style board of high level design inspiration to share.
+
+      - title: Material Up
+        url: https://Material.uplabs.com
+        description: Curates the best design materials available online everyday.
+
+      - title: Mobile Patters
+        url: https://mobile-patterns.com
+        description: Learn how to overcome UX flows for your mobile app.
+  - title: Graphics
+    color: 70D1FC
+    subfolderitems:
+      - title: Illustrator
+        url: https://adobe.com
+        description: Build amazing vector art with this must-have tool.
+
+      - title: Photoshop
+        url: https://adobe.com
+        description: Create and enhance your photographs, web designs and even your 3D artwork.
+
+      - title: Daz Studio
+        url: https:/daz3d.com
+        description: Make incredibly realistic humans or animals in 3D.
+
+      - title: DrawPlus
+        url: https://serif.com
+        description: Draw handsome vector art at a reasonable price.
+
+      - title: Pixlr
+        url: https://Pixlr.com
+        description: Get access to 600 effects to retouch your pictures, free of charge.
+
+      - title: Inkspace
+        url: https://inkscape.org/en/
+        description: The best open source alternative to Illustrator.
+
+      - title: Aviary
+        url: https://Aviary.com
+        description: Edit your photos from a mobile app or from a web app.
+
+      - title: Blender
+        url: https://Blender.org
+        description: Open source and entirely free 3D creation software.
+
+      - title: Gimp
+        url: https://gimp.org
+        description: Free and open source editor to edit and retouch images.
+
+      - title: Affinity Photo
+        url: https://Affinity.serif.com
+        description: Professional photo editing software. For Mac Only.
+  - title: Logo Design
+    color: 7570FB
+    subfolderitems:
+      - title: SquareSpace
+        url: https://logo.SquareSpace.com
+        description: This tool combines SquareSpace expertise and nounproject icons to let you make a cool logo.
+
+      - title: Designmantic
+        url: https://Designmantic.com
+        description: Enter your company name, select your industry, and generate an editable logo.
+
+      - title: Graphic Springs
+        url: https://graphicsprings.com
+        description: Choose a logo template, edit it, and download your logo.
+
+      - title: Logo Genie
+        url: https://logogenie.net
+        description: Logo Genie makes logo design easy and fun.
+
+      - title: Logo Makr
+        url: https://logomakr.com
+        description: Create a simple logo with flaticon materials.
+
+      - title: Logo Type Makr
+        url: https://logotypemakr.com
+        description: Random generation of logos for your company.
+
+      - title: Logo Garden
+        url: https://logogarden.com
+        description: Select the industry you're working in and choose one of the generated logos.
+
+      - title: Logoshi
+        url: https://Logoshi.com
+        description: Draw a messy sketch and get a clean modern logo.
+
+      - title: Logaster
+        url: https://Logaster.com
+        description: Make a decent logo without any design skills.
+
+      - title: Logo Maker
+        url: https://logomaker.com
+        description: Generate hundreds of potential logos and modify them online.
+  - title: Prototyping
+    color: D871FB
+    subfolderitems:
+      - title: Sketch
+        url: https://sketchapp.com
+        description: A vector design too convenient for UI and UX. Only compatible with Mac.
+
+      - title: Napkin
+        url: https://designwithnapkin.com
+        description: Design quick mockups on your iOS device.
+
+      - title: Flinto
+        url: https://flinto.com
+        description: Sketch interactive prototypes from static images.
+
+      - title: ProtoIO
+        url: https://proto.io
+        description: Make ultra realistic app prototypes. No coding required.
+
+      - title: Weld
+        url: https://weld.io
+        description: Draw your website online, the way you want it.
+
+      - title: Balsamiq
+        url: https://Balsamiq.com
+        description: Quick wireframing tool that lets you make clear mockups.
+
+      - title: App Cooker
+        url: https://appcooker.net
+        description: Handle mockups and prototypes from your iPad.
+
+      - title: Atomic
+        url: https://atomic.io
+        description: Design realistic prototypes you can share with your team.
+
+      - title: HTML5 Up
+        url: https://html5up.net
+        description: Create classy, customizable and responsive HTML 5 templates.
+
+      - title: Axure
+        url: https://Axure.com
+        description: Quickly design prototypes from your computer and share them.

@@ -168,6 +168,9 @@ body {
 .intro {
   font-size: 4vw; }
 
+.home {
+  padding: 0 5%; }
+
 h2 {
   font-size: 1.6em; }
 
@@ -192,7 +195,7 @@ ul {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     max-width: 100%; }
-    @media (min-width: 54em) {
+    @media (min-width: 32em) {
       ul > * {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
@@ -204,8 +207,6 @@ ul {
         max-width: 33.33333%; } }
 
 li {
-  width: 24.5em;
-  height: 10em;
   word-wrap: break-word; }
 
 a {
