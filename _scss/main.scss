@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Gotham A', 'Gotham B';
+  transition: background 1.5s ease;
   background: #FFF;
 }
 
@@ -18,7 +19,8 @@ body {
   font-size: 4vw;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
 }
 
@@ -29,6 +31,7 @@ ul {
   padding: 4em;
   list-style: none;
   text-align: left;
+
   flex-wrap: wrap;
 }
 

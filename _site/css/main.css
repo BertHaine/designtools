@@ -397,6 +397,7 @@ a:visited {
 /* Literal.Number.Integer.Long */
 body {
   font-family: 'Gotham A', 'Gotham B';
+  transition: background 1.5s ease;
   background: #FFF; }
 
 .intro-text {
@@ -412,7 +413,8 @@ body {
 .intro {
   font-size: 4vw; }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase; }
 
 ul {
