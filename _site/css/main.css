@@ -413,6 +413,9 @@ body {
 .intro {
   font-size: 4vw; }
 
+h2 {
+  font-size: 1.6em; }
+
 h1,
 h2 {
   text-transform: uppercase; }
