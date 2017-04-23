@@ -1,6 +1,7 @@
 tools:
   - title: Typography
     color: F68383
+    section: 2
     subfolderitems:
       - title: Fontface Ninja
         url: https://Fontface.Ninja
@@ -43,6 +44,7 @@ tools:
         description: Tinder for fonts. Swipe to find the bestmatch.
   - title: Stock Photos
     color: f8c881
+    section: 3
     subfolderitems:
       - title: Pixabay
         url: https://Pixabay.com
@@ -85,6 +87,7 @@ tools:
         description: Receive original pictures in your email every month.
   - title: Stock Graphics
     color: f7fa7c
+    section: 4
     subfolderitems:
       - title: Illustrator
         url: https://adobe.com
@@ -127,6 +130,7 @@ tools:
         description: Professional photo editing software. For Mac Only.
   - title: Infographics
     color: D2FC74
+    section: 5
     subfolderitems:
         - title: Canva
           url: https://Canva.com
@@ -169,6 +173,7 @@ tools:
           description: Superb online diagramming tool that lets you collaborate with your team.
   - title: Collaboration
     color: 71FC7B
+    section: 6
     subfolderitems:
         - title: Invision
           url: https://invisionapp.com
@@ -211,6 +216,7 @@ tools:
           description: Build and share libraries of visual assets with your team. For Mac only.
   - title: Colors
     color: 72FDDA
+    section: 7
     subfolderitems:
       - title: Color Hunt
         url: https://colorhunt.co
@@ -253,6 +259,7 @@ tools:
         description: Browser extension that turns every website into black and white.
   - title: Inspiration
     color: D2FC74
+    section: 8
     subfolderitems:
       - title: Dribbble
         url: https://Dribbble.com
@@ -295,6 +302,7 @@ tools:
         description: Learn how to overcome UX flows for your mobile app.
   - title: Graphics
     color: 70D1FC
+    section: 9
     subfolderitems:
       - title: Illustrator
         url: https://adobe.com
@@ -337,6 +345,7 @@ tools:
         description: Professional photo editing software. For Mac Only.
   - title: Logo Design
     color: 7570FB
+    section: 10
     subfolderitems:
       - title: SquareSpace
         url: https://logo.SquareSpace.com
@@ -379,6 +388,7 @@ tools:
         description: Generate hundreds of potential logos and modify them online.
   - title: Prototyping
     color: D871FB
+    section: 11
     subfolderitems:
       - title: Sketch
         url: https://sketchapp.com
