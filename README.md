@@ -5,7 +5,7 @@ A site compiling the 💯 best and current design tools utilizing Illustrio's in
 ## Getting Started
 
 #### Install Node.js
-1. Install [HomeBrew](http://brew.sh/)
+1.  Install [HomeBrew](http://brew.sh/)
 1. `brew install nvm`
 1. `nvm install v6.9.4`
 
