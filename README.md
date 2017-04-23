@@ -13,7 +13,6 @@ A site compiling the 100 best and current design tools utilizing Illustrio's inf
 - Node.JS and NPM
 - Jekyll
 - Ruby
-
 ```
 
 ## Built With
@@ -37,6 +36,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 Hat tip to
-*  [Urban Influence](http://urbaninfluence.com/2016/08/a-flexy-little-grid-system/) for their brilliant Flex Grid Mixin used here.
-* [Illustrio] (https://illustrio.com/) for their great infographic which was the basis for the site.
+*  Urban Influence](http://urbaninfluence.com/2016/08/a-flexy-little-grid-system/) for their brilliant Flex Grid Mixin used here.
+* [Illustrio](https://illustrio.com/) for their great infographic which was the basis for the site.
     
