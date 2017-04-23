@@ -1,6 +1,6 @@
 # The 100 Best Design Tools 📏
 
-A site compiling the 100 best and current design tools utilizing Illustrio's infographic.
+A site compiling the 💯 best and current design tools utilizing Illustrio's infographic.
 
 ## Getting Started
 
