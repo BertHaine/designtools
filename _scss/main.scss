@@ -33,13 +33,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+
 
 }
 
 .tools {
   padding-left: 5%;
   padding-right: 5%;
-  transition: all 1.5s ease;
+  transition: background 1.5s ease;
+  padding-top: 2em;
+  height: 100vh;
+  flex-wrap: nowrap; 
 }
 
 .intro {
@@ -66,7 +71,7 @@ ul {
   list-style: none;
   text-align: left;
 
-  @include flex-grid(1, 2, 3, $pad: 1.5em);
+  @include flex-grid(1, 2, 3, $pad: 1.5rem);
 }
 
 li {
@@ -82,20 +87,28 @@ a {
 }
 
 .featured {
-  @include flex-grid(1, 2, 3, $pad: 1.5em);
+  @include flex-grid(1, 2, 3, $pad: 1.5rem);
+  // margin-bottom: 2em;
 }
 
 .title {
-  flex: 2;
+  flex-grow: 2 !important;
 }
 
 .firstitem {
-  flex: 1;
-  padding: 2em;
+  // flex: 1;
+  // padding: 2em;
   background-color: #171717;
   color: #FFF;
-  height: 200px;
   text-align: left;
   border-radius: 20px;
+  // padding: 1.5em;
 
+}
+
+
+@media (min-device-width: 32em) {
+  .featured {
+    justify-content: space-between;
+  }
 }
