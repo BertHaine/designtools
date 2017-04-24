@@ -165,7 +165,6 @@ body {
       align-items: center; }
 
 .tools {
-  padding-top: 15%;
   padding-left: 5%;
   padding-right: 5%;
   transition: all 1.5s ease; }
@@ -178,7 +177,7 @@ h2 {
 
 h3 {
   font-size: 3em;
-  float: left;
+  text-align: left;
   text-transform: uppercase; }
 
 h1,
@@ -218,25 +217,46 @@ li {
 
 a {
   text-decoration: none;
-  color: #7B4141; }
+  color: gray; }
+  a:visited {
+    color: gray; }
 
 .featured {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  list-style: none; }
+  .featured > * {
+    padding: 1.5em;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 100%; }
+    @media (min-width: 32em) {
+      .featured > * {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        max-width: 50%; } }
+    @media (min-width: 65em) {
+      .featured > * {
+        -ms-flex-preferred-size: 33.33333%;
+            flex-basis: 33.33333%;
+        max-width: 33.33333%; } }
 
 .title {
-  margin-right: auto; }
+  -ms-flex: 2;
+      flex: 2; }
 
 .firstitem {
-  margin: 0;
+  -ms-flex: 1;
+      flex: 1;
   padding: 2em;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
   background-color: #171717;
   color: #FFF;
   height: 200px;
-  width: 30em;
   text-align: left;
   border-radius: 20px; }

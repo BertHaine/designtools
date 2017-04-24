@@ -37,7 +37,6 @@ body {
 }
 
 .tools {
-  padding-top: 15%;
   padding-left: 5%;
   padding-right: 5%;
   transition: all 1.5s ease;
@@ -54,7 +53,7 @@ h2 {
 
 h3 {
   font-size: 3em;
-  float: left;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -76,26 +75,26 @@ li {
 
 a {
   text-decoration: none;
-  color: #7B4141;
+  color: gray;
+  &:visited {
+    color: gray;
+  }
 }
 
 .featured {
-  display:flex;
+  @include flex-grid(1, 2, 3, $pad: 1.5em);
 }
 
 .title {
-  margin-right:auto;
+  flex: 2;
 }
 
 .firstitem {
-  margin:0;
+  flex: 1;
   padding: 2em;
-  display:flex;
-  flex-direction: column;
   background-color: #171717;
   color: #FFF;
   height: 200px;
-  width: 30em;
   text-align: left;
   border-radius: 20px;
 
