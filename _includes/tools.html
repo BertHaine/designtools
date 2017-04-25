@@ -1,14 +1,21 @@
   {% for item in site.data.tools.tools %}
-<section class="container"  data-background="#{{ item.color }}">
-  <h3>{{ item.title }}</h3>
-  <ul class="list">
-    {% for entry in item.subfolderitems %}
-    <li class="list-item">
+  <section class="container"  data-background="#{{ item.color }}">
+    <h3>{{ item.title }}</h3>
+    {% for entry in item.subfolderitems limit:1 %}
+    <div class="featured">      
       <h2>{{entry.title}}</h2>
       <a href="{{entry.url}}">{{entry.url}}</a>
       <p>{{entry.description}}</p>
-    </li>
+    </div>
     {% endfor %}
-  </ul>
-  {% endfor %}
-</section>  
+    <ul class="list">
+      {% for entry in item.subfolderitems offset:1 %}
+      <li class="list-item">
+        <h2>{{entry.title}}</h2>
+        <a href="{{entry.url}}">{{entry.url}}</a>
+        <p>{{entry.description}}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>  
