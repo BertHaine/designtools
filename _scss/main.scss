@@ -1,4 +1,5 @@
 // load config
+@import 'config/config';
 
 // load mixins
 @import 'mixins/flexgrid';
@@ -30,6 +31,7 @@ body {
   transition: background 1.5s ease;
   color: #171717;
   background: #FFF;
+
 }
 
 .intro-text {
