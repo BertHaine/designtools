@@ -9,10 +9,7 @@
 
 // load base
 @import 'base/reset';
-$min_width: 320px;
-$max_width: 2000px;
-$min_font: 11px;
-$max_font: 50px;
+
 
 *,
 *:after,
@@ -25,9 +22,13 @@ $max_font: 50px;
   -moz-font-feature-settings: 'liga' on;
 }
 
+@include font-face('Theinhardt Medium', '/fonts/Theinhardt-Medium');
+@include font-face('Theinhardt Thin', '/fonts/Theinhardt-Thin');
+
+
 
 body {
-  font-family: 'Gotham A', 'Gotham B';
+  // font-family: 'Gotham A', 'Gotham B';
   transition: background 1.5s ease;
   color: #171717;
   background: #FFF;
@@ -39,6 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Theinhardt Thin';
 }
 
 .tools {

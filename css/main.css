@@ -150,8 +150,15 @@ a:visited {
   text-rendering: optimizeLegibility;
   -moz-font-feature-settings: 'liga' on; }
 
+@font-face {
+  font-family: "Theinhardt Medium";
+  src: url("/fonts/Theinhardt-Medium.eot?") format("eot"), url("/fonts/Theinhardt-Medium.woff2") format("woff2"), url("/fonts/Theinhardt-Medium.woff") format("woff"), url("/fonts/Theinhardt-Medium.ttf") format("truetype"), url("/fonts/Theinhardt-Medium.svg#Theinhardt_Medium") format("svg"); }
+
+@font-face {
+  font-family: "Theinhardt Thin";
+  src: url("/fonts/Theinhardt-Thin.eot?") format("eot"), url("/fonts/Theinhardt-Thin.woff2") format("woff2"), url("/fonts/Theinhardt-Thin.woff") format("woff"), url("/fonts/Theinhardt-Thin.ttf") format("truetype"), url("/fonts/Theinhardt-Thin.svg#Theinhardt_Thin") format("svg"); }
+
 body {
-  font-family: 'Gotham A', 'Gotham B';
   transition: background 1.5s ease;
   color: #171717;
   background: #FFF; }
@@ -163,7 +170,8 @@ body {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  height: 100vh; }
+  height: 100vh;
+  font-family: 'Theinhardt Thin'; }
 
 .tools {
   height: auto;
