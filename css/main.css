@@ -153,8 +153,8 @@ a:visited {
 body {
   font-family: 'Gotham A', 'Gotham B';
   transition: background 1.5s ease;
-  background: #FFF;
-  color: #171717; }
+  color: #171717;
+  background: #FFF; }
 
 .intro-text {
   display: -ms-flexbox;
@@ -166,31 +166,61 @@ body {
   height: 100vh; }
 
 .tools {
-  padding-left: 5%;
-  padding-right: 5%;
-  transition: background 1.5s ease;
+  height: auto;
+  min-height: 100vh;
   padding-top: 2em;
-  height: 100vh;
+  padding-right: 5%;
+  padding-left: 5%;
+  transition: background 1.5s ease;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap; }
 
 .intro {
-  font-size: 4vw; }
+  font-size: 32px; }
+  @media screen and (min-width: 320px) {
+    .intro {
+      font-size: calc(32px + 32 * ((100vw - 320px) / 1680)); } }
+  @media screen and (min-width: 2000px) {
+    .intro {
+      font-size: 64px; } }
 
 h2 {
-  font-size: 1.6em; }
+  font-size: 16px; }
+  @media screen and (min-width: 320px) {
+    h2 {
+      font-size: calc(16px + 8 * ((100vw - 320px) / 1680)); } }
+  @media screen and (min-width: 2000px) {
+    h2 {
+      font-size: 24px; } }
 
 h3 {
-  font-size: 3em;
   text-align: left;
   text-transform: uppercase; }
+  h3 {
+    font-size: 24px; }
+    @media screen and (min-width: 320px) {
+      h3 {
+        font-size: calc(24px + 18 * ((100vw - 320px) / 1680)); } }
+    @media screen and (min-width: 2000px) {
+      h3 {
+        font-size: 42px; } }
 
 h1,
 h2 {
   text-transform: uppercase; }
 
+p {
+  line-height: 1.6em; }
+  p {
+    font-size: 14px; }
+    @media screen and (min-width: 320px) {
+      p {
+        font-size: calc(14px + 0 * ((100vw - 320px) / 1680)); } }
+    @media screen and (min-width: 2000px) {
+      p {
+        font-size: 14px; } }
+
 ul {
-  list-style: none;
   text-align: left;
   display: -ms-flexbox;
   display: flex;
@@ -239,7 +269,9 @@ a {
   margin-right: -1.5rem;
   list-style: none;
   -ms-flex-negative: 0;
-      flex-shrink: 0; }
+      flex-shrink: 0;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
   .featured > * {
     padding: 1.5rem;
     -ms-flex-preferred-size: 100%;
@@ -257,16 +289,13 @@ a {
         max-width: 33.33333%; } }
 
 .title {
-  -ms-flex-positive: 2 !important;
-      flex-grow: 2 !important; }
+  -ms-flex: 2;
+      flex: 2; }
 
 .firstitem {
-  background-color: #171717;
-  color: #FFF;
+  -ms-flex: 1;
+      flex: 1;
   text-align: left;
-  border-radius: 20px; }
-
-@media (min-device-width: 32em) {
-  .featured {
-    -ms-flex-pack: justify;
-        justify-content: space-between; } }
+  color: #FFF;
+  border-radius: 20px;
+  background-color: #171717; }

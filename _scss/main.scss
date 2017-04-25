@@ -2,13 +2,15 @@
 
 // load mixins
 @import 'mixins/flexgrid';
+@import 'mixins/fluidtype';
 
 
 // load base
 @import 'base/reset';
-
-
-
+$min_width: 320px;
+$max_width: 2000px;
+$min_font: 11px;
+$max_font: 50px;
 
 *,
 *:after,
@@ -25,8 +27,8 @@
 body {
   font-family: 'Gotham A', 'Gotham B';
   transition: background 1.5s ease;
-  background: #FFF;
   color: #171717;
+  background: #FFF;
 }
 
 .intro-text {
@@ -34,32 +36,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
-
 }
 
 .tools {
-  padding-left: 5%;
-  padding-right: 5%;
-  transition: background 1.5s ease;
+  height: auto;
+  min-height: 100vh;
   padding-top: 2em;
-  height: 100vh;
-  flex-wrap: nowrap; 
+  padding-right: 5%;
+  padding-left: 5%;
+  transition: background 1.5s ease;
+  flex-wrap: nowrap;
 }
 
 .intro {
-  font-size: 4vw;
+  @include fluid-type($min_width, $max_width, 32px, 64px);
 }
 
 
 h2 {
-  font-size: 1.6em;
+  @include fluid-type($min_width, $max_width, 16px, 24px);
 }
 
 h3 {
-  font-size: 3em;
   text-align: left;
   text-transform: uppercase;
+
+  @include fluid-type($min_width, $max_width, 24px, 42px);
 }
 
 h1,
@@ -67,8 +69,12 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+   @include fluid-type($min_width, $max_width, 14px, 14px);
+   line-height: 1.6em;
+}
+
 ul {
-  list-style: none;
   text-align: left;
 
   @include flex-grid(1, 2, 3, $pad: 1.5rem);
@@ -88,27 +94,21 @@ a {
 
 .featured {
   @include flex-grid(1, 2, 3, $pad: 1.5rem);
-  // margin-bottom: 2em;
+  justify-content: space-between;
 }
 
 .title {
-  flex-grow: 2 !important;
+  flex: 2;
 }
 
 .firstitem {
-  // flex: 1;
-  // padding: 2em;
-  background-color: #171717;
-  color: #FFF;
+  flex: 1;
   text-align: left;
+  color: #FFF;
   border-radius: 20px;
-  // padding: 1.5em;
-
+  background-color: #171717;
 }
 
 
-@media (min-device-width: 32em) {
-  .featured {
-    justify-content: space-between;
-  }
-}
+
+  
