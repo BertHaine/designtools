@@ -22,17 +22,18 @@
   -moz-font-feature-settings: 'liga' on;
 }
 
-@include font-face('Theinhardt Medium', '/fonts/Theinhardt-Medium');
-@include font-face('Theinhardt Thin', '/fonts/Theinhardt-Thin');
+@include font-face('Theinhardt Medium', '/fonts/Theinhardt-Bold');
+@include font-face('Theinhardt Thin', '/fonts/Theinhardt-Regular');
+@include font-face('Tiempos', '/fonts/Leitura-Roman');
 
 
 
 body {
-  // font-family: 'Gotham A', 'Gotham B';
+  font-family: 'Theinhardt Medium';
+  font-size: 16px;
   transition: background 1.5s ease;
   color: #171717;
-  background: #FFF;
-
+  background: #171717;
 }
 
 .intro-text {
@@ -40,7 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Theinhardt Thin';
+  color: #FFF;
 }
 
 .tools {
@@ -60,60 +61,102 @@ body {
 
 h2 {
   @include fluid-type($min_width, $max_width, 16px, 24px);
+
+}
+
+h4 {
+  @include fluid-type($min_width, $max_width, 16px, 24px);
 }
 
 h3 {
+  font-family: 'Tiempos';
   text-align: left;
-  text-transform: uppercase;
+  letter-spacing: .2px;
 
-  @include fluid-type($min_width, $max_width, 24px, 42px);
+  @include fluid-type($min_width, $max_width, 70px, 58px);
+  @media(max-width: 32em) {
+    text-align: center;
+  }
 }
 
 h1,
-h2 {
-  text-transform: uppercase;
+h2, {
+  // text-transform: uppercase;
+  // letter-spacing: .5px;
+  font-weight: normal;
 }
 
 p {
-   @include fluid-type($min_width, $max_width, 14px, 14px);
-   line-height: 1.6em;
+  font-family: 'Theinhardt Thin';
+  line-height: 1.6em;
+
+  @include fluid-type($min_width, $max_width, 15px, 15px);
 }
 
 ul {
   text-align: left;
-
-  @include flex-grid(1, 2, 3, $pad: 1.5rem);
+  @include flex-grid(1, 2, 3, $pad: .5rem);
+  @media(max-width: 40em) {
+  }
 }
 
 li {
+  margin-top: 20px;
   word-wrap: break-word;
+  &:hover {
+    transition: all 1s ease;
+    transform: scale(10.01);
+    transform: translate3d(0, .5em, 0);
+    // border-radius: 20px;
+    // background-color: rgba(244,244,244,.8);
+    box-shadow: 0 0 47px rgba(73,73,73,.1);;
+  }
+    p {
+      margin-bottom: 0;
+  }
 }
 
 a {
+  font-family: 'Theinhardt Thin';
   text-decoration: none;
   color: gray;
+  @include fluid-type($min_width, $max_width, 12px, 12px);
   &:visited {
     color: gray;
   }
 }
 
 .featured {
-  @include flex-grid(1, 2, 3, $pad: 1.5rem);
   justify-content: space-between;
-}
 
-.title {
-  flex: 2;
+  @include flex-grid(1, 2, 3, $pad: .5rem);
+  @media(min-width: 62em) {
+    & .title {
+      &:first-child {
+        max-width: 66.6%;
+
+        flex-basis: 66.6%;
+      }
+    }
+  }
 }
 
 .firstitem {
-  flex: 1;
   text-align: left;
   color: #FFF;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #171717;
+  padding: 1.3em;
+
+  flex: 1;
+  &:hover {
+    transition: all 1s ease;
+    transform: scale(2);
+    transform: translate3d(0, .25em, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 47px rgba(73,73,73,.3);
+  }
+  p {
+      margin-bottom: 0;
+  }
 }
-
-
-
-  
