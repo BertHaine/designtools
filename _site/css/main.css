@@ -334,7 +334,7 @@ a {
         -ms-flex-preferred-size: 33.33333%;
             flex-basis: 33.33333%;
         max-width: 33.33333%; } }
-  @media (min-width: 62em) {
+  @media (min-width: 65em) {
     .featured .title:first-child {
       max-width: 66.6%;
       -ms-flex-preferred-size: 66.6%;

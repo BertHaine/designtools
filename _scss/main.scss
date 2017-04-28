@@ -9,6 +9,7 @@
 
 // load base
 @import 'base/reset';
+// @import 'base/typography';
 
 
 *,
@@ -128,9 +129,8 @@ a {
 
 .featured {
   justify-content: space-between;
-
   @include flex-grid(1, 2, 3, $pad: .5rem);
-  @media(min-width: 62em) {
+  @media(min-width: 65em) {
     & .title {
       &:first-child {
         max-width: 66.6%;
