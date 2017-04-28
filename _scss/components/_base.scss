@@ -1,0 +1,76 @@
+body {
+  transition: background 1.5s ease;
+  background: #171717;
+  color: #171717;
+}
+
+body, input, select, textarea, button {
+  font-family: 'Theinhardt Medium', sans-serif;
+  font-size: 100%;
+}
+
+
+h2 {
+  @include fluid-type($min_width, $max_width, 16px, 24px);
+
+}
+
+h4 {
+  @include fluid-type($min_width, $max_width, 16px, 24px);
+}
+
+h3 {
+  font-family: 'Tiempos';
+  text-align: left;
+  letter-spacing: .2px;
+
+  @include fluid-type($min_width, $max_width, 70px, 58px);
+  @media(max-width: 32em) {
+    text-align: center;
+  }
+}
+
+h1,
+h2, {
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Theinhardt Thin';
+  line-height: 1.6em;
+
+  @include fluid-type($min_width, $max_width, 15px, 15px);
+}
+
+ul {
+  text-align: left;
+  @include flex-grid(1, 2, 3, $pad: .5rem);
+  @media(max-width: 40em) {
+  }
+}
+
+li {
+  margin-top: 20px;
+  word-wrap: break-word;
+  &:hover {
+    transition: all 1s ease;
+    transform: scale(10.01);
+    transform: translate3d(0, .5em, 0);
+    // border-radius: 20px;
+    // background-color: rgba(244,244,244,.8);
+    box-shadow: 0 0 47px rgba(73,73,73,.1);;
+  }
+    p {
+      margin-bottom: 0;
+  }
+}
+
+a {
+  font-family: 'Theinhardt Thin';
+  text-decoration: none;
+  color: gray;
+  @include fluid-type($min_width, $max_width, 12px, 12px);
+  &:visited {
+    color: gray;
+  }
+}
