@@ -1,84 +1,26 @@
+// load base
+@import 'base/reset';
+@import 'base/base';
+
+
 // load config
+@import 'config/config';
 
 // load mixins
 @import 'mixins/flexgrid';
+@import 'mixins/fluidtype';
+@import 'mixins/fontface';
 
 
-// load base
-@import 'base/reset';
+// load components
+@import 'base/typography';
+@import 'components/base';
+@import 'components/mast';
+@import 'components/tools';
 
 
 
 
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  -moz-font-feature-settings: 'liga' on;
-}
 
 
-body {
-  font-family: 'Gotham A', 'Gotham B';
-  transition: background 1.5s ease;
-  background: #FFF;
-}
 
-.intro-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-}
-
-.intro {
-  font-size: 4vw;
-}
-
-.home {
-  padding: 0 5%;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-h3 {
-  font-size: 3em;
-  float: left;
-  text-transform: uppercase;
-}
-
-h1,
-h2 {
-  text-transform: uppercase;
-}
-
-ul {
-  list-style: none;
-  text-align: left;
-
-  @include flex-grid(1, 2, 3, $pad: 1.5em);
-}
-
-li {
-  word-wrap: break-word;
-}
-
-a {
-  text-decoration: none;
-  color: #7B4141;
-}
-
-.featured {
-  text-transform: left;
-  background-color: gray;
-  height: 200px;
-  width: 200px;
-  flex-direction: row-reverse;
-}

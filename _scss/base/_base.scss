@@ -1,0 +1,12 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: 'liga' on;
+}
+
+
