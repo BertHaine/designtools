@@ -1,20 +1,20 @@
   {% for item in site.data.tools.tools %}
-  <div class="section page{{ item.section }} tools container"  data-background="#{{ item.color }}">
-    <div class="featured">
+  <div class="tools"  data-background="#{{ item.color }}">
+    <div class="tools__featured">
       <div class="title">
         <h3>{{ item.title }}</h3>
         {% for entry in item.subfolderitems limit:1 %}
       </div>
-      <div class="firstitem">
+      <div class="tools__firstitem">
         <h4>{{entry.title}}</h4>
         <a href="{{entry.url}}">{{entry.url}}</a>
         <p>{{entry.description}}</p>
       </div>
     </div>
     {% endfor %}
-    <ul class="list">
+    <ul>
       {% for entry in item.subfolderitems offset:1 %}
-      <li class="list-item">
+      <li>
         <h2>{{entry.title}}</h2>
         <a href="{{entry.url}}" alt="">{{entry.url}}</a>
         <p>{{entry.description}}</p>

@@ -1,0 +1,14 @@
+
+.mast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #FFF;
+  
+  & h1 {
+    @include fluid-type($min_width, $max_width, 32px, 64px);
+  }
+}
+
+

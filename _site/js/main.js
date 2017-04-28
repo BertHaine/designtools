@@ -21,12 +21,12 @@
 
 
 window.addEventListener("scroll", function(){
-  containers = document.getElementsByClassName('container');
-  Array.prototype.forEach.call(containers, function(container){
-    if(container.offsetTop < window.pageYOffset + 50 && container.offsetTop > window.pageYOffset - 50 || container.offsetTop < window.pageYOffset + 400 && container.offsetTop > window.pageYOffset - 400){
-      console.log(container.dataset.background);
-      document.querySelector('body').style.background = container.dataset.background;
-      $('h4').style.color = container.dataset.background;
+  containers = document.getElementsByClassName('tools');
+  Array.prototype.forEach.call(containers, function(tools){
+    if(tools.offsetTop < window.pageYOffset + 50 && tools.offsetTop > window.pageYOffset - 50 || tools.offsetTop < window.pageYOffset + 400 && tools.offsetTop > window.pageYOffset - 400){
+      console.log(tools.dataset.background);
+      document.querySelector('body').style.background = tools.dataset.background;
+      $('h4').style.color = tools.dataset.background;
     }
   })
 });

@@ -1,9 +1,8 @@
-html, body {
-  background: #FFF;
-  color: #000;
-}
+@include font-face('Theinhardt Medium', '/fonts/Theinhardt-Bold');
+@include font-face('Theinhardt Thin', '/fonts/Theinhardt-Regular');
+@include font-face('Tiempos', '/fonts/Leitura-Roman');
 
-body, input, select, textarea, button {
-  font-family: "Open Sans", sans-serif;
-  font-size: 100%;
-}
+
+
+
+
