@@ -37,8 +37,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 Hat tip to
 * [Urban Influence](http://urbaninfluence.com/2016/08/a-flexy-little-grid-system/) for their brilliant Flex Grid Mixin used here.
 * [Illustrio](https://illustrio.com/) for their great infographic which was the basis for the site.
-<<<<<<< HEAD
-    
-=======
-    
->>>>>>> ab4bb379cb1cf7c9b7e2f2414bcce0e024df9f20

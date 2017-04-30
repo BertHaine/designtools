@@ -54,11 +54,9 @@ li {
   word-wrap: break-word;
   &:hover {
     transition: all 1s ease;
-    transform: scale(10.01);
-    transform: translate3d(0, .5em, 0);
-    // border-radius: 20px;
-    // background-color: rgba(244,244,244,.8);
-    box-shadow: 0 0 47px rgba(73,73,73,.1);;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    transform: scale(1.02);
+
   }
     p {
       margin-bottom: 0;
