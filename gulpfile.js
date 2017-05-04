@@ -72,7 +72,35 @@ gulp.task('watch', function () {
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*', '_data/*'], ['jekyll-rebuild']);
 });
 
+// ============================= PROD ============================== //
 
+// Build the Jekyll Site in production mode
+gulp.task('jekyll-prod', function (done) {
+  browserSync.notify(messages.jekyllProd);
+  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+  .on('close', done);
+  });
+
+gulp.task('styles-prod', function () {
+  return gulp.src('_scss/*.scss')
+  .pipe(sass({
+    includePaths: ['scss'],
+    onError: browserSync.notify
+    }))
+  .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
+  .pipe(gulp.dest('_site/css'))
+  .pipe(gulp.dest('css'));
+  });
+
+gulp.task('scripts-prod', function() {
+  return gulp.src(['js/*.js'])
+  .pipe(gulp.dest('_site/js'));
+  });
+
+
+
+// Build task, run using gulp build to compile Sass and Javascript ready for deployment.
+gulp.task('build', ['styles-prod', 'scripts-prod', 'jekyll-prod']);
 
 /**
  * Default task, running just `gulp` will compile the sass,
