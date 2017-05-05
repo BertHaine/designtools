@@ -1,4 +1,21 @@
+# Site settings
 name: Design Tools
+description: A site compiling the 💯 best and current design tools utilizing Illustrio's infographic.
+url: https://berthaine.github.io/designtools/
+baseurl: ""
+
+# Build settings
 markdown: redcarpet
-highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - ".git"
+  - ".gitignore"
