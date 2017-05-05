@@ -1,6 +1,6 @@
-@include font-face('Theinhardt Medium', '{{site.baseurl}}/fonts/Theinhardt-Bold');
-@include font-face('Theinhardt Thin', '{{site.baseurl}}/fonts/Theinhardt-Regular');
-@include font-face('Tiempos', '{{site.baseurl}}/fonts/Leitura-Roman');
+@include font-face('Theinhardt Medium', '../fonts/Theinhardt-Bold');
+@include font-face('Theinhardt Thin', '../fonts/Theinhardt-Regular');
+@include font-face('Tiempos', '../fonts/Leitura-Roman');
 
 
 
